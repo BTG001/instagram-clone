@@ -4,8 +4,6 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <h1>Instagram Clone with React 🚀 !</h1>
-
       <div className="app__header">
         <img
           className="app__headerImage"
@@ -14,7 +12,7 @@ function App() {
         />
       </div>
 
-      {/* Header */}
+      <h1>Instagram Clone with React 🚀 !</h1>
 
       {/* Posts */}
       {/* Posts */}
