@@ -1,13 +1,18 @@
 /*Type rfce and hit enter - everything is filled up for us*/
 import React from "react";
+import "./Post.css";
 
 function Post() {
   return (
-    <div>
+    <div className="post">
       <h3>Username</h3>
       {/* header -> avatar + username */}
 
-      <img src="https://s3.amazonaws.com/pixpa.com/com/articles/1559139403-725019-modelposesjpg.png"></img>
+      <img
+        className="post__image"
+        src="https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png"
+        alt="React"
+      ></img>
       {/* image */}
 
       <h4>Username: caption</h4>
