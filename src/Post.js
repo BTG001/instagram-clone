@@ -3,7 +3,7 @@ import React from "react";
 import "./Post.css";
 import { Avatar } from '@material-ui/core';
 
-function Post() {
+function Post( { username, caption, imageUrl }) {
   return (
     <div className="post">
       <div className="post__header">
@@ -11,9 +11,8 @@ function Post() {
         className="post__avatar"
         alt="Bruno"
         src="/static/images/avatar/1.jpg"/>
-      <h3>Username</h3>
+      <h3>{username}</h3>
       </div>
-      {/* header -> avatar + username */}
 
       <img
         className="post__image"
@@ -22,7 +21,7 @@ function Post() {
       ></img>
 
       <h4 className="post__text">
-        <strong>bruno: </strong> Wow! Day Three of building this
+        <strong>{username} </strong> {caption}
       </h4>
     </div>
   );
