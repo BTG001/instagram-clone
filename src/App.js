@@ -16,8 +16,8 @@ function App() {
       <h1>Instagram Clone with React 🚀 !</h1>
 
       <Post username="bruno" caption="It is working" imageUrl="https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18.08.13.png" />
-      <Post />
-      <Post />
+      <Post username="designerkibet" caption="This is dope!"/>
+      <Post username="cyril" caption="How did you do that?"/>
 
     </div>
   );
