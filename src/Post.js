@@ -1,7 +1,7 @@
 /*Type rfce and hit enter - everything is filled up for us*/
 import React from "react";
 import "./Post.css";
-import Avatar from "@material-ui/core";
+import { Avatar } from '@material-ui/core';
 
 function Post() {
   return (
